@@ -10,7 +10,7 @@ services:
     ports:
       - 3001:3001
     environment:
-      - DB_URL=mongodb://admin:pass123@db:27017
+      - DB_URL=mongodb://admin:pass123@db:27017/?authSource=admin
     restart: always
     depends_on:
       - db

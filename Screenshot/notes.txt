@@ -40,3 +40,9 @@ URL
 Mongoexpress - http://localhost:8081
 FASTAPI - http://localhost:3001/docs
 React - http://localhost:3000
+
+Git
+git add .
+git commit -m "new app"
+git pull origin main
+git push origin main
